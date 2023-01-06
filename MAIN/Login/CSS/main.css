@@ -1,0 +1,128 @@
+body{
+    background-color: white;
+    font-family: 'Montserrat';
+}
+
+.header{
+    font-family: 'Montserrat';
+    position: absolute;
+    width: 240px;
+    height: 40px;
+    left: 93px;
+    top: 63px;
+    font-size: 32px;
+}
+.login{
+    font-family: 'Montserrat';
+    position: absolute;
+    width: 384px;
+    height: 388px;
+    left: 151px;
+    top: 194px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+#login{
+    text-align: left;
+}
+.student{
+    font-family: 'Montserrat';
+    left: -30px;
+    top: 0px;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background: #5AB9EA;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+.teacher{
+    font-family: 'Montserrat';
+    position: relative;
+    width: 160px;
+    height: 40px;
+    background: #DADADA;
+    border-radius: 10px;
+    border: 0px;
+}
+.email{
+    font-family: 'Montserrat';
+    width: 380px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 25px;
+    border: 1px solid #919191;
+}
+.password{
+    font-family: 'Montserrat';
+    margin-top: 25px;
+    width: 380px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #919191;
+}
+.not_password{
+    font-family: 'Montserrat';
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    color: #959595;
+}
+.submit{
+    font-family: 'Montserrat';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 380px;
+    height: 50px;
+    background: #5AB9EA;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.news{
+    position: absolute;
+    top: 180px;
+    width: 891px;
+    height: 636px;
+    left: 798px;
+}
+.begin_with{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+@media (max-width: 1367px){
+    body{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px){
+    body{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px){
+    body{
+        max-width: none;
+    }
+}
